@@ -20,12 +20,20 @@ jobs:
     - name: Install
       run: |
         make install
+        make rust-install
     - name: Format
       run: |
         make format
+        make rust-format
     - name: Lint
       run: |
         make lint
+        make rust-lint
     - name: Test
       run: |
         make test
+        make rust-test
+    - name: Run
+      run: |
+        make run
+        make rust-run
