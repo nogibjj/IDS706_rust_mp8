@@ -1,0 +1,7 @@
+[package]
+name = "ids706_rust_mp8"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+csv = "1.1"
